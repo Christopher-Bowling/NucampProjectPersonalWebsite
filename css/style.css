@@ -1,0 +1,79 @@
+#website-logo {
+    font-size: 2em;
+}
+
+#navbarNav a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+    font-size: 1.6em;
+}
+
+#navbarNav a:hover {
+    border-bottom: 1px solid #f2f2f2;
+    color: white;
+}
+
+/* Main Styles */
+#carousel-pic {
+    height: 675px;
+    width: 675px;
+}
+
+#welcome-text {
+    background-color: black;
+    width: 300px;
+}
+
+/* Quote Styles */
+#quote-wrapper h5 {
+    font-family: vollkorn;
+    letter-spacing: 2px;
+    font-size: 1.75em;
+}
+
+#quote-wrapper h6 {
+    font-family: vollkorn;
+    font-size: 1em;
+}
+
+/* Body Nav Styles */
+.bodyNavComp {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 40px;
+    transition: .5s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bodyNavComp:hover {
+    border: 3px solid #737373;
+    background-color: #404040; 
+    color: #e6e6e6;
+}
+
+.navPic {
+    width: 412px;
+    height: 300px;
+}
+
+#about-me {
+    object-fit: cover;
+    object-position: 10% 0%;
+}
+
+/* Footer Styles */
+#socialMediaIconsWrapper > a {
+    padding: 10px 70px;
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+#socialMediaIconsWrapper > a:hover {
+    color: #cea135;
+    cursor: pointer;
+}

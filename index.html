@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-sm navbar-dark bg-dark p-4">
+    <div class="container">
+        <a id="website-logo" class="navbar-brand text-primary" href="#">ChrisBowling.me</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-2">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a href="online-courses.html" class="nav-link">Online Courses</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a href="private-coaching.html" class="nav-link">Private Coaching</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="about-me.html" class="nav-link">About Me</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </header>
+
+  <!-- Carousel-Section -->
+  <main class="bg-light">
+    <div class="container bg-dark mt-5">
+        <div class="carousel slide mb-5" data-ride="carousel" id="slider">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#slider" data-slide-to="0"></li>
+            <li class="active" data-target="#slider" data-slide-to="1"></li>
+            <li class="active" data-target="#slider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="carousel-pic" class="d-block img-fluid mx-auto" src="img/playingPoker.jpg" alt="playingPoker">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img id="carousel-pic" class="d-block img-fluid mx-auto" src="img/bbvbtn.jpg" alt="bbvbtn">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>BB Call vs Button Raise Udemy Online Course</h3>
+                <p>Use Coupon Code FIVEOFFCOURSE2 to get $5.00 off!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img id="carousel-pic" class="d-block img-fluid mx-auto" src="img/moveUpStakes.jpg" alt="moveUpStakes">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Advanced Online Poker Concepts to Move Up Stakes Quickly Online course</h3>
+                <p>Use Coupon Code FIVEOFFCOURSE1 to get $5.00 off!</p>
+              </div>
+            </div> 
+          </div>
+
+          <a href="#slider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#slider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    </div>
+
+    <!-- Quote Section -->
+    <div id="quote-wrapper" class="container pt-5 my-5 p-5">
+      <div class="row">
+        <h5>"Wisdom is not a product of schooling but of the lifelong attempt to acquire it"</h3>
+      </div>
+      <div class="row-full mt-5">
+        <h6 class="font-italic float-right">~Albert Einstein</h6>
+      </div>
+    </div>
+
+    <!-- Body Navigation Section -->
+    <div class="container mb-5" id="bodyWrapper">
+      <div class="row" id="bodyNavLinkContainer">
+          <a href="online-courses.html">
+            <div class="bodyNavComp">
+              <div class="bodyNavLink">
+                  <img src="img/onlineCourses.jpg" alt="blogPic" class="navPic">
+              </div>
+              <h1 class="navTitle text-center my-auto">Online Courses</h1>
+          </div>
+          </a>
+          <a href="private-coaching.html">
+            <div class="bodyNavComp">
+              <div class="bodyNavLink">
+                  <img src="img/coaching.jpg" alt="projectsPic" class="navPic">
+              </div>
+              <h1 class="navTitle text-center my-auto">Private Coaching</h1>
+          </div>
+          </a>
+      </div>   
+      <div class="row" id="bodyNavLinkContainer2">    
+        <a href="blog.html">
+          <div class="bodyNavComp">
+            <div class="bodyNavLink" id="about-me-container">
+                <img src="img/blog.jpg" alt="blog" class="navPic">
+            </div>
+            <h1 class="navTitle text-center my-auto">Blog</h1>
+        </div>
+        </a>
+          <div class="bodyNavComp">
+              <div class="bodyNavLink">
+                  <img src="img/about-me.jpg" alt="about-me" id="about-me" class="navPic">
+              </div>
+              <h1 class="navTitle text-center my-auto">About Me</h1>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="bg-dark p-4">
+      <div class="row text-light justify-content-center">
+        <h1 class="text-primary">Social Media:</h1>
+      </div>
+      <div class="row justify-content-center pt-3" id="socialMediaIconsWrapper">
+        <a href="https://www.instagram.com/official_chrisbowling/?hl=en" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com/chrisbowling?lang=en" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://www.facebook.com/Chris2fer1990" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    // Carousel
+    $('.carousel').carousel({
+      interval: 4000,
+      keyboard: true,
+      pause: 'hover',
+      wrap: true
+    });
+  </script>
+</body>
+
+</html>
