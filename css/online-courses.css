@@ -1,5 +1,15 @@
 /* header */
 
-.online-course-paragraphs {
-    /* Style paragraphs here */
+#bbvsBtnTitle {
+    text-decoration: none;
+}
+
+#bbvsBtnTitle h2:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.online-course-paragraphs p{
+    letter-spacing: 1px;
+    line-height: 30px;
 }

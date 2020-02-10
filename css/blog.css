@@ -1,0 +1,30 @@
+/* Styles for all card images */
+.blog-images {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    .blog-images {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .blog-images {
+        height: 20rem;
+        object-position: 10% 0%;
+    }
+
+    .card-container {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #waterfall-img {
+        height: 20rem;
+        object-position: 50% 65%;
+    }
+}
