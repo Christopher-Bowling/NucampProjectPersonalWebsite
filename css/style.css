@@ -65,6 +65,14 @@
     object-position: 10% 0%;
 }
 
+.bodyNavBtns {
+    color: black;
+}
+
+a.bodyNavBtns:hover {
+    text-decoration: none;
+}
+
 /* Footer Styles */
 #socialMediaIconsWrapper > a {
     padding: 10px 70px;
