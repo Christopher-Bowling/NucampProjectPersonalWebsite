@@ -13,16 +13,48 @@
     color: white;
 }
 
-/* Main Styles */
-#carousel-pic {
-    height: 675px;
-    width: 675px;
+/* Carousel Styles */
+.carousel {
+    width: 100%;
 }
 
-#welcome-text {
-    background-color: black;
-    width: 300px;
+#carousel-pic {
+    height: 625px;
+    width: 100%; 
+    display: block;      
+    object-fit: cover;
 }
+
+#welcome {
+    background-color: rgba(0, 0, 0, .5);
+    width: 33rem;
+}
+
+#bbVsBtn {
+    background-color: rgba(0, 0, 0, .5);
+    width: 60rem;
+    color: white;
+}
+
+#bbVsBtn:hover {
+    color: #007bff;
+}
+
+.c-link:hover {
+    text-decoration: none;
+}
+
+#moveUpStakes {
+    background-color: rgba(0, 0, 0, .5);
+    width: 60rem;
+    color: white;
+}
+
+#moveUpStakes:hover {
+    color: #007bff;
+}
+
+
 
 /* Quote Styles */
 #quote-wrapper h5 {
