@@ -1,10 +1,10 @@
 /* header */
 
-#bbvsBtnTitle {
+#courseTitle {
     text-decoration: none;
 }
 
-#bbvsBtnTitle h2:hover {
+#courseTitle h2:hover {
     text-decoration: none;
     color: #007bff;
 }
