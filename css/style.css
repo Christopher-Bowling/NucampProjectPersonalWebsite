@@ -32,33 +32,41 @@
     object-fit: cover;
 }
 
-#welcome {
-    background-color: rgba(0, 0, 0, .5);
-    width: 33rem;
+.carousel-caption > .c-link > #welcome{
+    font-size: 5px;
 }
 
-#bbVsBtn {
+#welcome, #bbVsBtn, #moveUpStakes {
     background-color: rgba(0, 0, 0, .5);
-    width: 60rem;
     color: white;
+    /* width: 35%; */
 }
 
-#bbVsBtn:hover {
-    color: #007bff;
-}
+/* #bbVsBtn {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+} */
 
 .c-link:hover {
     text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white;
+    
 }
 
-#moveUpStakes {
+/* #moveUpStakes {
     background-color: rgba(0, 0, 0, .5);
-    width: 60rem;
     color: white;
-}
+} */
 
-#moveUpStakes:hover {
-    color: #007bff;
+@media only screen and (min-width: 768px) {
+    #welcome {
+        width: 35%;
+    }
+    #bbVsBtn {
+        width: 70%;
+    }
 }
 
 
@@ -117,13 +125,10 @@ a.bodyNavBtns:hover {
 }
 
 /* Footer Styles */
-#socialMediaIconsWrapper {
-    flex-wrap: nowrap;
-}
 
 #socialMediaIconsWrapper > a {
-    padding: 10px 70px;
-    font-size: 1.5em;
+    padding: 10px 15px;
+    font-size: 1.5rem;
     color: #cbcbcb;
     transition: 0.5s;
 }
@@ -132,17 +137,4 @@ a.bodyNavBtns:hover {
     color: #cea135;
     cursor: pointer;
 }
-
-@media only screen and (max-width: 500) {
-    #socialMediaIconWrapper {
-        display: flex;
-        flex-wrap: nowrap !important;
-    }
-
-    footer {
-        color: red;
-        background-color: red;
-    }
-}
-
 
